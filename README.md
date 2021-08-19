@@ -21,7 +21,7 @@ Confusion Matrix:
 ### Images:
 *Input Image:*
 <p align="center">
-<img width="400" height="400" src="/Project_Image.png">
+<img width="500" height="400" src="/Images/Results_image_2.png">
 </p>  
 
 ### Videos:
