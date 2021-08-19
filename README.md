@@ -30,11 +30,11 @@
 
 
 
-    Indent paragraphs to include them in the footnote.
-
-    `{ my code }`
-
-    Add as many paragraphs as you like.
+    Pandas
+    PyTorch 
+    Seaborn
+    NumPy
+    Pandas
  
 
 ## Results
@@ -56,8 +56,12 @@ https://user-images.githubusercontent.com/74200033/130096189-c42585e5-79ea-4cef-
 
 ## Requirements
 
-<pre>
- Pandas                                Seaborn                                NumPy                          
- PyTorch                               Matplotlib                             scikit-learn        
-                                                                 
-</pre> 
+ Pandas
+ Pandas
+ Pandas
+ 
+ 
+ <pre>
+  Pandas                                Seaborn                                NumPy                          
+  PyTorch                               Matplotlib                             scikit-learn                                                                     
+ </pre> 
