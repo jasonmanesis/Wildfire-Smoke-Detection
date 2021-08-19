@@ -3,6 +3,30 @@
 # Wildfire Smoke Detection.
 **Convolutional neural network model based on the architecture of the Faster-RCNN for wildfire smoke detection.**
 
+## Dataset Properties.
+<div align="center">
+ 
+This dataset is released by **AI for Mankind** in collaboration with **HPWREN**.
+
+This dataset is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License**.
+
+
+To learn more about this dataset and its possible applications in fighting wildfires, see this case study of Abhishek Ghosh's wildfire detection model.
+The goal is to curate wildfire smoke datasets to enable open sharing and ease of access of datasets for developing vision based wildfire detection models. Easy access and open sharing of datasets will facilitate and accelerate the research efforts in solving wildfire crisis.
+
+HPWREN Cameras
+AI For Mankind downloaded the public domain HPWREN Cameras images and annotated these images with bounding boxes for object detection.
+
+Bounding Box Annotated Wildfire Smoke Dataset (Pascal VOC annotation format) Version 1.0 for smoke detection. Thank you our founder Wei Shung Chung in creating this first set of bounding boxes. In total, 744 bounding box annotated images are created.
+
+Bounding Box Annotated Wildfire Smoke Dataset (Pascal VOC annotation format) Version 2.0 This is the latest annotated images we created with the help of our volunteers. It has 2192 annotated images.
+
+Please give credits to AI For Mankind and HPWREN when using these bounding box annotated smoke datasets. The bounding box annotated smoke datasets are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License.
+
+https://public.roboflow.com/object-detection/wildfire-smoke
+ 
+</div align="center">
+
 ## Model Architecture
 
 ![](/model_architecture.png)
@@ -27,16 +51,6 @@
 |Average Recall     (AR) |0.50:0.95        | large       | 100          | **0.707**|
 
 
-
-
-
-    Pandas
-    PyTorch 
-    Seaborn
-    NumPy
-    Pandas
- 
-
 ## Results
 ### Images:
 
@@ -56,12 +70,24 @@ https://user-images.githubusercontent.com/74200033/130096189-c42585e5-79ea-4cef-
 
 ## Requirements
 
- Pandas
- Pandas
- Pandas
+:green_square:  **Pandas == 1.3.2**
+
+:green_square:  **PyTorch**
+
+:green_square:  **Seaborn**
+
+:green_square:  **NumPy**
+ 
+:green_square:  **Seaborn**
+
+:green_square:  **Matplotlib**
+
+    Pandas == 1.3.2                 Pandas == 1.3.2                 Pandas == 1.3.2
+    Pandas == 1.3.2                 Pandas == 1.3.2                 Pandas == 1.3.2
+    Pandas == 1.3.2                 Pandas == 1.3.2                 Pandas == 1.3.2
+    Pandas == 1.3.2                 Pandas == 1.3.2                 Pandas == 1.3.2
+    Pandas == 1.3.2                 Pandas == 1.3.2                 Pandas == 1.3.2
+    Pandas == 1.3.2                 Pandas == 1.3.2                 Pandas == 1.3.2
+    
  
  
- <pre>
-  Pandas                                Seaborn                                NumPy                          
-  PyTorch                               Matplotlib                             scikit-learn                                                                     
- </pre> 
