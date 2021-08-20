@@ -75,10 +75,10 @@ https://user-images.githubusercontent.com/74200033/130096189-c42585e5-79ea-4cef-
 
 ## Requirements
 
-    torch == 1.9.0+cu102                                  numpy == 1.19.5                               json == 2.0.9
-    torchvision == 0.10.0+cu102                           yaml == 5.1                                   fiftyone == 0.12.0
-    pyyaml == 5.1                                         pandas == 1.3.2                               IPython == 5.5.0
-    detectron2 == 0.5                                     cv2 == 4.1.
+    torch == 1.9.0+cu102                               numpy == 1.19.5                             json == 2.0.9
+    torchvision == 0.10.0+cu102                        yaml == 5.1                                 fiftyone == 0.12.0
+    pyyaml == 5.1                                      pandas == 1.3.2                             IPython == 5.5.0
+    detectron2 == 0.5                                  cv2 == 4.1.
                   
                 
      
