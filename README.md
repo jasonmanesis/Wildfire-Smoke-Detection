@@ -15,14 +15,19 @@ The **High Performance Wireless Research and Education Network (HPWREN)**, a Uni
  
 The above dataset is available in **2** different versions in **Pascal VOC** annotation format:
  
-Bounding Box Annotated Wildfire Smoke Dataset Version 1.0 with **744** annotated images. 
- :arrow_right: [BBAWS Dataset v1.0 - Pascal VOC](https://drive.google.com/file/d/1sEB77bfp2yMkgsSW9703vwDHol_cK6D5/view?usp=sharing)
+ :arrow_right_hook:   Bounding Box Annotated Wildfire Smoke Dataset Version 1.0 with **744** annotated images. 
  
-Bounding Box Annotated Wildfire Smoke Dataset Version 2.0 with **2192** annotated images. 
-:arrow_right: [BBAWS Dataset v2.0 - Pascal VOC](https://drive.google.com/drive/folders/1IKXN2-hxTrEQsIIKOxiUAuLgoxubA9Wq?usp=sharing)
+ :link:[ **BBAWS Dataset v1.0 - Pascal VOC**](https://drive.google.com/file/d/1sEB77bfp2yMkgsSW9703vwDHol_cK6D5/view?usp=sharing)
+ 
+ :arrow_right_hook:  Bounding Box Annotated Wildfire Smoke Dataset Version 2.0 with **2192** annotated images. 
+ 
+:link:[ **BBAWS Dataset v2.0 - Pascal VOC**](https://drive.google.com/drive/folders/1IKXN2-hxTrEQsIIKOxiUAuLgoxubA9Wq?usp=sharing)
 
-The first version of the dataset is also available in **COCO** annotation format by **Roboflow**: 
-:arrow_right: [BBAWS Dataset v1.0 - COCO]( https://public.roboflow.com/object-detection/wildfire-smoke)
+The **first version** of the dataset is also available in **COCO** annotation format by **Roboflow**:
+ 
+:arrow_right_hook: Bounding Box Annotated Wildfire Smoke Dataset Version 1.0 with **744** annotated images. 
+ 
+ :link: [ **BBAWS Dataset v1.0 - COCO**]( https://public.roboflow.com/object-detection/wildfire-smoke)
  
 
 
