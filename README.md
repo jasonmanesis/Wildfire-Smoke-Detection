@@ -4,28 +4,33 @@
 **Convolutional neural network model based on the architecture of the Faster-RCNN for wildfire smoke detection.**
 
 ## Dataset Properties.
-<div align="center">
+<div align="left">
  
-This dataset is released by **AI for Mankind** in collaboration with **HPWREN**.
-
-This dataset is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License**.
-
-
-To learn more about this dataset and its possible applications in fighting wildfires, see this case study of Abhishek Ghosh's wildfire detection model.
-The goal is to curate wildfire smoke datasets to enable open sharing and ease of access of datasets for developing vision based wildfire detection models. Easy access and open sharing of datasets will facilitate and accelerate the research efforts in solving wildfire crisis.
-
-HPWREN Cameras
-AI For Mankind downloaded the public domain HPWREN Cameras images and annotated these images with bounding boxes for object detection.
-
-Bounding Box Annotated Wildfire Smoke Dataset (Pascal VOC annotation format) Version 1.0 for smoke detection. Thank you our founder Wei Shung Chung in creating this first set of bounding boxes. In total, 744 bounding box annotated images are created.
-
-Bounding Box Annotated Wildfire Smoke Dataset (Pascal VOC annotation format) Version 2.0 This is the latest annotated images we created with the help of our volunteers. It has 2192 annotated images.
-
-Please give credits to AI For Mankind and HPWREN when using these bounding box annotated smoke datasets. The bounding box annotated smoke datasets are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License.
-
-https://public.roboflow.com/object-detection/wildfire-smoke
+This dataset is released by **AI for Mankind** in collaboration with **HPWREN** (High Performance Wireless Research and Education Network), and is licensed under the [**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License**](https://creativecommons.org/licenses/by-nc-sa/4.0/). 
  
-</div align="center">
+ **AI For Mankind** is a 501(c)(3) nonprofit organization with the mission of mobilizing the tech community to work on world challenging problems using AI and Data. We organize tech talks, workshops, and hackathons. We want to build a grassroot community of volunteers creating solutions using AI and Data to bring positive impacts to society at large.       (https://aiformankind.org/) 
+ 
+The **High Performance Wireless Research and Education Network (HPWREN)**, a University of California San Diego partnership project led by the San Diego Supercomputer Center and the Scripps Institution of Oceanography's Institute of Geophysics and Planetary Physics, supports Internet-data applications in the research, education, and public safety realms. (http://hpwren.ucsd.edu/)
+ 
+ 
+ The above dataset is available in **2** different versions in **Pascal VOC** annotation format:
+ 
+ Bounding Box Annotated Wildfire Smoke Dataset Version 1.0 with **744** annotated images. 
+ Dataset -> [BBAWS Dataset v1.0 - Pascal VOC](https://drive.google.com/file/d/1sEB77bfp2yMkgsSW9703vwDHol_cK6D5/view?usp=sharing)
+ 
+ Bounding Box Annotated Wildfire Smoke Dataset Version 2.0 with **2192** annotated images. 
+ Dataset -> [BBAWS Dataset v2.0 - Pascal VOC](https://drive.google.com/drive/folders/1IKXN2-hxTrEQsIIKOxiUAuLgoxubA9Wq?usp=sharing)
+
+ The first version of the dataset is also available in **COCO** annotation format by **Roboflow**: 
+ 
+ Bounding Box Annotated Wildfire Smoke Dataset Version 1.0 with **744** annotated images. 
+ Dataset -> [BBAWS Dataset v1.0 - COCO]( https://public.roboflow.com/object-detection/wildfire-smoke)
+ 
+
+
+_For this project we used the dataset in **COCO** annotation format provided by Roboflow._
+
+</div align="left">
 
 ## Model Architecture
 
@@ -70,24 +75,17 @@ https://user-images.githubusercontent.com/74200033/130096189-c42585e5-79ea-4cef-
 
 ## Requirements
 
-:green_square:  **Pandas == 1.3.2**
-
-:green_square:  **PyTorch**
-
-:green_square:  **Seaborn**
-
-:green_square:  **NumPy**
+    torch == 1.9.0+cu102                                  numpy == 1.19.5                               json == 2.0.9
+    torchvision == 0.10.0+cu102                           yaml == 5.1                                   fiftyone == 0.12.0
+    pyyaml == 5.1                                         pandas == 1.3.2                               IPython == 5.5.0
+    detectron2 == 0.5                                     cv2 == 4.1.
+                  
+                
+     
+    
+   
+    
  
-:green_square:  **Seaborn**
-
-:green_square:  **Matplotlib**
-
-    Pandas == 1.3.2                 Pandas == 1.3.2                 Pandas == 1.3.2
-    Pandas == 1.3.2                 Pandas == 1.3.2                 Pandas == 1.3.2
-    Pandas == 1.3.2                 Pandas == 1.3.2                 Pandas == 1.3.2
-    Pandas == 1.3.2                 Pandas == 1.3.2                 Pandas == 1.3.2
-    Pandas == 1.3.2                 Pandas == 1.3.2                 Pandas == 1.3.2
-    Pandas == 1.3.2                 Pandas == 1.3.2                 Pandas == 1.3.2
     
  
  
