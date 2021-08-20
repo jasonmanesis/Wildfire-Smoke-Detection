@@ -13,18 +13,16 @@ This dataset is released by **AI for Mankind** in collaboration with **HPWREN** 
 The **High Performance Wireless Research and Education Network (HPWREN)**, a University of California San Diego partnership project led by the San Diego Supercomputer Center and the Scripps Institution of Oceanography's Institute of Geophysics and Planetary Physics, supports Internet-data applications in the research, education, and public safety realms. (http://hpwren.ucsd.edu/)
  
  
- The above dataset is available in **2** different versions in **Pascal VOC** annotation format:
+The above dataset is available in **2** different versions in **Pascal VOC** annotation format:
  
- Bounding Box Annotated Wildfire Smoke Dataset Version 1.0 with **744** annotated images. 
- Dataset -> [BBAWS Dataset v1.0 - Pascal VOC](https://drive.google.com/file/d/1sEB77bfp2yMkgsSW9703vwDHol_cK6D5/view?usp=sharing)
+Bounding Box Annotated Wildfire Smoke Dataset Version 1.0 with **744** annotated images. 
+ :arrow_right: [BBAWS Dataset v1.0 - Pascal VOC](https://drive.google.com/file/d/1sEB77bfp2yMkgsSW9703vwDHol_cK6D5/view?usp=sharing)
  
- Bounding Box Annotated Wildfire Smoke Dataset Version 2.0 with **2192** annotated images. 
- Dataset -> [BBAWS Dataset v2.0 - Pascal VOC](https://drive.google.com/drive/folders/1IKXN2-hxTrEQsIIKOxiUAuLgoxubA9Wq?usp=sharing)
+Bounding Box Annotated Wildfire Smoke Dataset Version 2.0 with **2192** annotated images. 
+:arrow_right: [BBAWS Dataset v2.0 - Pascal VOC](https://drive.google.com/drive/folders/1IKXN2-hxTrEQsIIKOxiUAuLgoxubA9Wq?usp=sharing)
 
- The first version of the dataset is also available in **COCO** annotation format by **Roboflow**: 
- 
- Bounding Box Annotated Wildfire Smoke Dataset Version 1.0 with **744** annotated images. 
- Dataset -> [BBAWS Dataset v1.0 - COCO]( https://public.roboflow.com/object-detection/wildfire-smoke)
+The first version of the dataset is also available in **COCO** annotation format by **Roboflow**: 
+:arrow_right: [BBAWS Dataset v1.0 - COCO]( https://public.roboflow.com/object-detection/wildfire-smoke)
  
 
 
@@ -80,12 +78,4 @@ https://user-images.githubusercontent.com/74200033/130096189-c42585e5-79ea-4cef-
     pyyaml == 5.1                                      pandas == 1.3.2                             IPython == 5.5.0
     detectron2 == 0.5                                  cv2 == 4.1.
                   
-                
-     
-    
-   
-    
- 
-    
- 
- 
+  
