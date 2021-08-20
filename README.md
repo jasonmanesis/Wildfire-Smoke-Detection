@@ -1,7 +1,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JasonManesis/Convolutional-Neural-Network-Classifier-MNIST/blob/main/CNN_MNIST_PyTorch_VISUALS.ipynb)
 
 # Wildfire Smoke Detection.
-**Convolutional neural network model based on the architecture of the Faster-RCNN for wildfire smoke detection.**
+Convolutional neural network model based on the architecture of the **Faster-RCNN** for wildfire smoke detection. For this project we used a pretrained model from detectron2's "model zoo" and fine-tune it for the task of wildfire smoke detection from optical image data.
 
 ## Dataset Properties.
 <div align="left">
@@ -36,8 +36,37 @@ _For this project we used the dataset in **COCO** annotation format provided by 
 </div align="left">
 
 ## Model Architecture
+The model architecture is based on the general archtecture of the **Faster-RCNN**, which includes the main modules of **Feature Pyramid Network** and **Region Proposal Network** as well as the model of **Fast-RCNN**.
 
-![](/model_architecture.png)
+<img src="https://miro.medium.com/max/2000/1*Wvn0WG4XZ0w9Ed2fFYPrXw.jpeg">
+
+_Image source: https://miro.medium.com/max/2000/1*Wvn0WG4XZ0w9Ed2fFYPrXw.jpeg_
+
+### **Feature Pyramid Network (FPN)**
+
+<div align="center">
+ 
+### Bottom-up pathway -> ResNet50 :
+<img src="https://www.researchgate.net/publication/349646156/figure/fig4/AS:995806349897731@1614430143429/The-architecture-of-ResNet-50-vd-a-Stem-block-b-Stage1-Block1-c-Stage1-Block2.png">
+ 
+_**Image source: https://www.researchgate.net/publication/349646156/figure/fig4/AS:995806349897731@1614430143429/The-architecture-of-ResNet-50-vd-a-Stem-block-b-Stage1-Block1-c-Stage1-Block2.png**_ 
+
+### Top-down pathway
+</div align="center">
+
+
+### **Region Proposal Network (RPN)**
+
+<img src="https://davidstutz.de/wordpress/wp-content/uploads/2018/02/ren.jpg">
+ 
+_**Image source: https://davidstutz.de/wordpress/wp-content/uploads/2018/02/ren.jpg**_ 
+
+
+
+
+
+### **Fast-RCNN**
+
 
 ## Model Performance
  
