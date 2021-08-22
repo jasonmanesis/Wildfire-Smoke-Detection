@@ -69,8 +69,6 @@ _**Image source: https://davidstutz.de/wordpress/wp-content/uploads/2018/02/ren.
 
 
 ## Model Performance
- 
- Performance Metrics:
 
 |          Metric        |         IoU     |      Area   |      maxDets |   Score  |
 |:----------------------:|:---------------:|:-----------:|:------------:|:--------:|
@@ -89,20 +87,14 @@ _**Image source: https://davidstutz.de/wordpress/wp-content/uploads/2018/02/ren.
 
 
 ## Results
-### Images:
 
+https://user-images.githubusercontent.com/74200033/130357982-c47f46ed-af8a-48c1-abeb-d4761eb707c6.mp4
 
-Solarized dark                                                    |     Solarized Ocean
-:----------------------------------------------------------------:|:-------------------------:
-<img width="500" height="400" src="/Images/Results_image_1.png">  |  <img width="500" height="400" src="/Images/Results_image_2.png">
+**Original video at:** https://www.youtube.com/watch?v=q07TBd5o1HQ&t=35s
 
+https://user-images.githubusercontent.com/74200033/130357983-04dbce41-5e87-456c-ad55-a9769d1ec1d5.mp4
 
-
-### Videos:
-
-
-https://user-images.githubusercontent.com/74200033/130096189-c42585e5-79ea-4cef-aa5f-cace7345a81b.mp4
-
+**Original video at:** https://www.youtube.com/watch?v=5cEr5ZXGUYA
 
 
 ## Requirements
