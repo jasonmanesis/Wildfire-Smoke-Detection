@@ -1,5 +1,3 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JasonManesis/Convolutional-Neural-Network-Classifier-MNIST/blob/main/CNN_MNIST_PyTorch_VISUALS.ipynb)
-
 # Wildfire Smoke Detection.
 Convolutional neural network model based on the architecture of the **Faster-RCNN** for wildfire smoke detection. For this project we used a pretrained model on ImageNet dataset, from detectron2's "model zoo", and fine-tune it for the task of wildfire smoke detection from optical image data.
 
