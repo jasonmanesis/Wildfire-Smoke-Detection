@@ -49,7 +49,7 @@ _Image source: https://miro.medium.com/max/2000/1*Wvn0WG4XZ0w9Ed2fFYPrXw.jpeg_
  
 _**Image source: https://www.researchgate.net/publication/349646156/figure/fig4/AS:995806349897731@1614430143429/The-architecture-of-ResNet-50-vd-a-Stem-block-b-Stage1-Block1-c-Stage1-Block2.png**_ 
 
-### Top-down pathway
+### Top-down pathway ✖️
 </div align="center">
 
 
@@ -83,6 +83,7 @@ _**Image source: https://davidstutz.de/wordpress/wp-content/uploads/2018/02/ren.
 |Average Recall     (AR) |0.50:0.95        | medium      | 100          | **0.584**|
 |Average Recall     (AR) |0.50:0.95        | large       | 100          | **0.707**|
 
+**Download final model [HERE](https://drive.google.com/file/d/1-lxnLc4PHoER0NZSiaB-9TdsMMBtZgcX/view?usp=sharing)** ✖️
 
 ## Results
 
@@ -92,8 +93,9 @@ https://user-images.githubusercontent.com/74200033/130357982-c47f46ed-af8a-48c1-
 
 https://user-images.githubusercontent.com/74200033/130357983-04dbce41-5e87-456c-ad55-a9769d1ec1d5.mp4
 
-**Original video at:** https://www.youtube.com/watch?v=5cEr5ZXGUYA
+**Original video at:** https://www.youtube.com/watch?v=5cEr5ZXGUYA    
 
+**Download full results [✖️](https://drive.google.com/file/d/1-lxnLc4PHoER0NZSiaB-9TdsMMBtZgcX/view?usp=sharing)** ✖️
 
 ## Requirements
 
