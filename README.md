@@ -60,9 +60,6 @@ _**Image source: https://www.researchgate.net/publication/349646156/figure/fig4/
 _**Image source: https://davidstutz.de/wordpress/wp-content/uploads/2018/02/ren.jpg**_ 
 
 
-
-
-
 ### **Fast-RCNN**
 
 
@@ -70,18 +67,18 @@ _**Image source: https://davidstutz.de/wordpress/wp-content/uploads/2018/02/ren.
 
 |          Metric        |         IoU     |      Area   |      maxDets |   Score  |
 |:----------------------:|:---------------:|:-----------:|:------------:|:--------:|
-|Average Precision  (AP) |0.50:0.95        |    all      | 100          | **0.547**|
-|Average Precision  (AP) |0.50             |    all      |100           | **0.909**|
-|Average Precision  (AP) |0.75             |    all      | 100          | **0.561**|
-|Average Precision  (AP) |0.50:0.95        |  small      | 100          | **0.318**|
-|Average Precision  (AP) |0.50:0.95        | medium      | 100          | **0.497**|
-|Average Precision  (AP) |0.50:0.95        | large       |         100  | **0.646**|
-|Average Recall     (AR) |0.50:0.95        | all         | 1            | **0.615**|
-|Average Recall     (AR) |0.50:0.95        | all         |10            | **0.620**|
-|Average Recall     (AR) |0.50:0.95        | all         | 100          | **0.620**|
-|Average Recall     (AR) |0.50:0.95        | small       | 100          | **0.443**|
-|Average Recall     (AR) |0.50:0.95        | medium      | 100          | **0.584**|
-|Average Recall     (AR) |0.50:0.95        | large       | 100          | **0.707**|
+|Average Precision  (AP) |0.50:0.95        |    all      | 100          | **0.551**|
+|Average Precision  (AP) |0.50             |    all      |100           | **0.921**|
+|Average Precision  (AP) |0.75             |    all      | 100          | **0.582**|
+|Average Precision  (AP) |0.50:0.95        |  small      | 100          | **0.333**|
+|Average Precision  (AP) |0.50:0.95        | medium      | 100          | **0.495**|
+|Average Precision  (AP) |0.50:0.95        | large       |         100  | **0.660**|
+|Average Recall     (AR) |0.50:0.95        | all         | 1            | **0.604**|
+|Average Recall     (AR) |0.50:0.95        | all         |10            | **0.608**|
+|Average Recall     (AR) |0.50:0.95        | all         | 100          | **0.608**|
+|Average Recall     (AR) |0.50:0.95        | small       | 100          | **0.429**|
+|Average Recall     (AR) |0.50:0.95        | medium      | 100          | **0.568**|
+|Average Recall     (AR) |0.50:0.95        | large       | 100          | **0.700**|
 
 **Download final model [HERE](https://drive.google.com/file/d/1-lxnLc4PHoER0NZSiaB-9TdsMMBtZgcX/view?usp=sharing)** ✖️
 
