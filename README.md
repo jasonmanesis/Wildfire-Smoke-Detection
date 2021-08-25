@@ -34,53 +34,33 @@ _For this project we used the dataset in **COCO** annotation format provided by 
 </div align="left">
 
 ## Model Architecture
-The model architecture is based on the general archtecture of the **Faster-RCNN**, which includes the main modules of **Feature Pyramid Network** and **Region Proposal Network** as well as the model of **Fast-RCNN**.
+The model architecture is based on the general archtecture of the **Faster-RCNN**, which includes the main modules of **Feature Pyramid Network** and **Region Proposal Network** as well as the model of **Fast-RCNN**. For the bottom-up pathway of the FPN network the architecture of the ResNet50 was used.
 
 <img src="https://miro.medium.com/max/2000/1*Wvn0WG4XZ0w9Ed2fFYPrXw.jpeg">
 
 _Image source: https://miro.medium.com/max/2000/1*Wvn0WG4XZ0w9Ed2fFYPrXw.jpeg_
 
-### **Feature Pyramid Network (FPN)**
-
-<div align="center">
- 
-### Bottom-up pathway -> ResNet50 :
-<img src="https://www.researchgate.net/publication/349646156/figure/fig4/AS:995806349897731@1614430143429/The-architecture-of-ResNet-50-vd-a-Stem-block-b-Stage1-Block1-c-Stage1-Block2.png">
- 
-_**Image source: https://www.researchgate.net/publication/349646156/figure/fig4/AS:995806349897731@1614430143429/The-architecture-of-ResNet-50-vd-a-Stem-block-b-Stage1-Block1-c-Stage1-Block2.png**_ 
-
-### Top-down pathway ✖️
-</div align="center">
-
-
-### **Region Proposal Network (RPN)**
-
-<img src="https://davidstutz.de/wordpress/wp-content/uploads/2018/02/ren.jpg">
- 
-_**Image source: https://davidstutz.de/wordpress/wp-content/uploads/2018/02/ren.jpg**_ 
-
-
-### **Fast-RCNN**
-
 
 ## Model Performance
 
-|          Metric        |         IoU     |      Area   |      maxDets |   Score  |
-|:----------------------:|:---------------:|:-----------:|:------------:|:--------:|
-|Average Precision  (AP) |0.50:0.95        |    all      | 100          | **0.551**|
-|Average Precision  (AP) |0.50             |    all      |100           | **0.921**|
-|Average Precision  (AP) |0.75             |    all      | 100          | **0.582**|
-|Average Precision  (AP) |0.50:0.95        |  small      | 100          | **0.333**|
-|Average Precision  (AP) |0.50:0.95        | medium      | 100          | **0.495**|
-|Average Precision  (AP) |0.50:0.95        | large       |         100  | **0.660**|
-|Average Recall     (AR) |0.50:0.95        | all         | 1            | **0.604**|
-|Average Recall     (AR) |0.50:0.95        | all         |10            | **0.608**|
-|Average Recall     (AR) |0.50:0.95        | all         | 100          | **0.608**|
-|Average Recall     (AR) |0.50:0.95        | small       | 100          | **0.429**|
-|Average Recall     (AR) |0.50:0.95        | medium      | 100          | **0.568**|
-|Average Recall     (AR) |0.50:0.95        | large       | 100          | **0.700**|
+|          **Metric**        |         **IoU**     |      **Area**   |      **maxDets*** |   **Score**  |
+|:--------------------------:|:-------------------:|:---------------:|:-----------------:|:------------:|
+|Average Precision  (AP)     |0.50:0.95            |    all          |100                |     **0.551**|
+|Average Precision  (AP)     |0.50                 |    all          |100                |     **0.921**|
+|Average Precision  (AP)     |0.75                 |    all          |100                |     **0.582**|
+|Average Precision  (AP)     |0.50:0.95            |  small          |100                |     **0.333**|
+|Average Precision  (AP)     |0.50:0.95            | medium          |100                |     **0.495**|
+|Average Precision  (AP)     |0.50:0.95            | large           |100                |     **0.660**|
+|Average Recall     (AR)     |0.50:0.95            | all             | 1                 |     **0.604**|
+|Average Recall     (AR)     |0.50:0.95            | all             |10                 |     **0.608**|
+|Average Recall     (AR)     |0.50:0.95            | all             | 100               |     **0.608**|
+|Average Recall     (AR)     |0.50:0.95            | small           | 100               |     **0.429**|
+|Average Recall     (AR)     |0.50:0.95            | medium          | 100               |     **0.568**|
+|Average Recall     (AR)     |0.50:0.95            | large           | 100               |     **0.700**|
 
-**Download final model [HERE](https://drive.google.com/file/d/1-lxnLc4PHoER0NZSiaB-9TdsMMBtZgcX/view?usp=sharing)** ✖️
+*_Maximum number of detections per image._
+
+**Download final model [`HERE`](https://drive.google.com/file/d/12TmbotrgL8q5R7u7pMuN34cnA_-4cGia/view?usp=sharing) (≈158.6 MB)** 
 
 ## Results
 
@@ -92,13 +72,13 @@ https://user-images.githubusercontent.com/74200033/130357983-04dbce41-5e87-456c-
 
 **Original video at:** https://www.youtube.com/watch?v=5cEr5ZXGUYA    
 
-**Download full results [✖️](https://drive.google.com/file/d/1-lxnLc4PHoER0NZSiaB-9TdsMMBtZgcX/view?usp=sharing)** ✖️
+**Download full results [`HERE`](https://drive.google.com/drive/folders/1wakQ7tUbXv-_HZX56l5C_tGunGw2CmaS?usp=sharing) (≈589 MB)**  ✖️
 
 ## Requirements
 
-    torch == 1.9.0+cu102                              numpy == 1.19.5                            json == 2.0.9
-    torchvision == 0.10.0+cu102                       yaml == 5.1                                fiftyone == 0.12.0
-    pyyaml == 5.1                                     pandas == 1.3.2                            IPython == 5.5.0
-    detectron2 == 0.5                                 cv2 == 4.1.2
+    torch == 1.9.0+cu102                             numpy == 1.19.5                           json == 2.0.9
+    torchvision == 0.10.0+cu102                      yaml == 5.1                               fiftyone == 0.12.0
+    pyyaml == 5.1                                    pandas == 1.3.2                           IPython == 5.5.0
+    detectron2 == 0.5                                cv2 == 4.1.2
                   
   
