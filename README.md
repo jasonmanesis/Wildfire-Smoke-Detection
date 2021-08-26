@@ -72,7 +72,7 @@ https://user-images.githubusercontent.com/74200033/130357983-04dbce41-5e87-456c-
 
 **Original video at:** https://www.youtube.com/watch?v=5cEr5ZXGUYA    
 
-**Download full results [`HERE`](https://drive.google.com/drive/folders/1wakQ7tUbXv-_HZX56l5C_tGunGw2CmaS?usp=sharing) (≈589 MB)**  ✖️
+**Download full results [`HERE`](https://drive.google.com/drive/folders/1wakQ7tUbXv-_HZX56l5C_tGunGw2CmaS?usp=sharing) (≈589 MB)**  
 
 ## Requirements
 
