@@ -21,13 +21,13 @@ Bounding Box Annotated Wildfire Smoke Dataset Version 1.0 with **744** annotated
  
 :arrow_right_hook: [ **BBAWS Dataset v2.0 - Pascal VOC**](https://drive.google.com/drive/folders/1IKXN2-hxTrEQsIIKOxiUAuLgoxubA9Wq?usp=sharing)
 
-The **first version** of the dataset is also available in **COCO** annotation format by **Roboflow**:
+The **first version** of the dataset is also available in **COCO** annotation format by [**Roboflow**](https://roboflow.com/):
  
 :arrow_right_hook: [ **BBAWS Dataset v1.0 - COCO**]( https://public.roboflow.com/object-detection/wildfire-smoke)
  
 
 
-_For this project we used the dataset in **COCO** annotation format provided by [Roboflow](https://roboflow.com/)._
+_For this project we used the dataset in **COCO** annotation format provided by Roboflow._
 
 </div align="left">
 
