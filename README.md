@@ -1,8 +1,12 @@
 # Wildfire Smoke Detection.
+<div align="justify">
+ 
 Convolutional neural network model based on the architecture of the **Faster-RCNN** for wildfire smoke detection. For this project we used a pretrained model on ImageNet dataset, from detectron2's [Model Zoo](https://detectron2.readthedocs.io/en/latest/modules/model_zoo.html), and fine-tuned it for the task of wildfire smoke detection from optical image data.
 
+</div align="justify">
+
 ## Dataset Properties.
-<div align="left">
+<div align="justify">
  
 This dataset is released by **AI for Mankind** in collaboration with **HPWREN** (High Performance Wireless Research and Education Network), and is licensed under the [**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License**](https://creativecommons.org/licenses/by-nc-sa/4.0/). 
  
@@ -29,11 +33,16 @@ The **first version** of the dataset is also available in **COCO** annotation fo
 
 _For this project we used the dataset in **COCO** annotation format provided by Roboflow._
 
-</div align="left">
+</div align="justify">
 
 ## Model Architecture
+
+<div align="justify">
+ 
 The model architecture is based on the general architecture of the **Faster-RCNN**, which includes the main modules of **Feature Pyramid Network**, **Region Proposal Network** as well as the model of **Fast-RCNN**. For the bottom-up pathway of the FPN network the architecture of the **ResNet50** was used.
 
+</div align="justify">
+ 
 <img src="https://miro.medium.com/max/2000/1*Wvn0WG4XZ0w9Ed2fFYPrXw.jpeg">
 
 _Image source: https://miro.medium.com/max/2000/1*Wvn0WG4XZ0w9Ed2fFYPrXw.jpeg_
