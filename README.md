@@ -67,7 +67,6 @@ _Image source: https://miro.medium.com/max/2000/1*Wvn0WG4XZ0w9Ed2fFYPrXw.jpeg_
 
 *_Maximum number of detections per image._
 
-**Download final model [`HERE`](https://drive.google.com/file/d/12TmbotrgL8q5R7u7pMuN34cnA_-4cGia/view?usp=sharing) (≈158.6 MB)** 
 
 ## Results
 
